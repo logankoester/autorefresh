@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+require File.join( File.expand_path(File.dirname(__FILE__)), '..', 'lib', 'autorefresh')
+
+USAGE = %q{
+autorefresh - Send listening browsers a signal to refresh the page.
+
+Usage: autorefresh <channel>
+
+For more information, see https://github.com/logankoester/autorefresh
+}.lstrip
+
+if ARGV[0]
+  AutoRefresh.refresh(ARGV[0])
+else
+  puts USAGE
+end

@@ -14,3 +14,9 @@ $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 require 'autorefresh'
 
 Bacon.summary_on_exit
+
+class AutoRefresh
+  def self.pusher_key
+    @@pusher_key
+  end
+end

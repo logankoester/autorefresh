@@ -1,0 +1,33 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    bacon (1.1.0)
+    crack (0.1.8)
+    git (1.2.5)
+    jeweler (1.5.2)
+      bundler (~> 1.0.0)
+      git (>= 1.2.5)
+      rake
+    json (1.4.6)
+    pusher (0.7.0)
+      crack (~> 0.1.0)
+      json (~> 1.4.0)
+      ruby-hmac (~> 0.4.0)
+      signature (~> 0.1.2)
+    rake (0.8.7)
+    rcov (0.9.9)
+    ruby-hmac (0.4.0)
+    signature (0.1.2)
+      ruby-hmac
+    watchr (0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bacon
+  bundler (~> 1.0.0)
+  jeweler (~> 1.5.2)
+  pusher (>= 0.7.0)
+  rcov
+  watchr (>= 0.7)
