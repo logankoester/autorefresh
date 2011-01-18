@@ -16,7 +16,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/logankoester/autorefresh"
   gem.license = "MIT"
   gem.summary = %Q{Automatically refresh your browser when a file has changed (using WebSockets)}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.description = %Q{Automatically refresh your browser when a file has changed}
   gem.email = "logan@logankoester.com"
   gem.authors = ["Logan Koester"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
