@@ -61,7 +61,7 @@ The *autorefresh* system command sends a refresh signal to your channel.
 
 You could bind this to a key in your editor, or whatever other method you prefer.
 
-== Contributing to autorefresh
+== Contributing to AutoRefresh
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
