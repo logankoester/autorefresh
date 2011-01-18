@@ -8,7 +8,7 @@ your editor.
 XRefresh requires that you install a Firefox extension and run a local server
 to watch for changes in your files, and only works on Mac/Windows.
 
-AutoRefresh approaches the problem in a different way, using watchr[https://github.com/mynyml/watchr]
+AutoRefresh approaches the problem in a different way, using watchr[https://github.com/mynyml/watchr].
 
 == Installation
   gem install autorefresh
@@ -56,7 +56,7 @@ Simply use this snippet instead of the automatic helper.
 
 === Usage without Watchr
 
-The 'autorefresh' system command sends a refresh signal to your channel.
+The *autorefresh* system command sends a refresh signal to your channel.
   $ autorefresh myproject
 
 You could bind this to a key in your editor, or whatever other method you prefer.
