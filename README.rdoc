@@ -1,6 +1,6 @@
 = AutoRefresh
 
-AutoRefresh is inspired by "XRefresh"[http://xrefresh.binaryage.com/], a tool to
+AutoRefresh is inspired by XRefresh[http://xrefresh.binaryage.com/], a tool to
 automatically refresh your browser when a file has changed, allowing web
 designers working with multiple monitors to preview changes without leaving
 your editor.
@@ -8,7 +8,7 @@ your editor.
 XRefresh requires that you install a Firefox extension and run a local server
 to watch for changes in your files, and only works on Mac/Windows.
 
-AutoRefresh approaches the problem in a different way, using "watchr"[https://github.com/mynyml/watchr]
+AutoRefresh approaches the problem in a different way, using watchr[https://github.com/mynyml/watchr]
 
 == Installation
   gem install autorefresh
